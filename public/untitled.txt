@@ -1,0 +1,10 @@
+import time
+
+n = None
+
+
+n = 1
+for count in range(4):
+  time.sleep(1)
+  n = n * 2
+  print(n)
